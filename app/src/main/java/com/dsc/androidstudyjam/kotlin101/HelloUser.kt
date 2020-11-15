@@ -11,7 +11,8 @@ fun main() {
     println("Hello ${user.name}")
 
     println("Your name has ${user.name?.length} letters")
-//    // Or
+
+//    // Scope function
 //    user.name?.let { safeName ->
 //        println("Your name has ${safeName.length} letters")
 //    }

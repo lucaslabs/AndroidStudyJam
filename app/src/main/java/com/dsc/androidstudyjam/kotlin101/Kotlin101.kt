@@ -67,6 +67,8 @@ fun main() {
 
     println("Classes and Functions")
     val calculator = Calculator()
-    println(calculator.sum(1, 2))
+
+    // Named params
+    println(calculator.sum(1, 2, c = 3))
     println(calculator.minus(1, 2))
 }
