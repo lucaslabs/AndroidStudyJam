@@ -8,7 +8,7 @@ fun main() {
     val lastName = readLine()
 
     val user = User(name, lastName)
-    println("Hello ${user.name}")
+    println("Hello ${user.name} ${user.lastName} ".toCapitalize())
 
     println("Your name has ${user.name?.length} letters")
 
