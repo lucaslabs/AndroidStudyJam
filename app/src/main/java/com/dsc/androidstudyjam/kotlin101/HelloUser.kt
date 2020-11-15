@@ -12,6 +12,11 @@ fun main() {
 
     println("Your name has ${user.name?.length} letters")
 
+    // Copy with named argumenta
+    val user2 = user.copy(name = "andrés")
+
+    println("Hello ${user2.name}".toCapitalize())
+
 //    // Scope function
 //    user.name?.let { safeName ->
 //        println("Your name has ${safeName.length} letters")
