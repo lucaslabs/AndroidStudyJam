@@ -1,4 +1,4 @@
-package com.dsc.androidstudyjam
+package com.dsc.androidstudyjam.kotlin101
 
 fun main() {
     println("Hello World")
@@ -42,6 +42,9 @@ fun main() {
     println(list2)
 
     // Iteration
+    for (item in list2) {
+        println(item)
+    }
     list2.forEach { println(it) }
 
     val pares = list2.filter { num ->
@@ -61,4 +64,9 @@ fun main() {
         "2" to 2
     )
     map["3"] = 2 // or map.put("3", 2)
+
+    println("Classes and Functions")
+    val calculator = Calculator()
+    println(calculator.sum(1, 2))
+    println(calculator.minus(1, 2))
 }
