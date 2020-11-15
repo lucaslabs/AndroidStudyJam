@@ -8,11 +8,11 @@ fun main() {
     val lastName = readLine()
 
     val user = User(name, lastName)
-    println("Hello ${user.name} ${user.lastName} ".toCapitalize())
+    println("Hello ${user.name} ${user.lastName}".toCapitalize())
 
     println("Your name has ${user.name?.length} letters")
 
-    // Copy with named argumenta
+    // Copy with named arguments
     val user2 = user.copy(name = "andrés")
 
     println("Hello ${user2.name}".toCapitalize())
