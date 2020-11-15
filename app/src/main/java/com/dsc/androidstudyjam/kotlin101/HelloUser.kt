@@ -13,7 +13,7 @@ fun main() {
     println("Your name has ${user.name?.length} letters")
 
     // Copy with named arguments
-    val user2 = user.copy(name = "andrés")
+    val user2 = user.copy(name = "gastón",  lastName = "saillen")
 
     println("Hello ${user2.name}".toCapitalize())
 
