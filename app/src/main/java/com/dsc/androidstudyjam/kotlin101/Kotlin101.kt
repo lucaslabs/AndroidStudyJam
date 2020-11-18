@@ -28,6 +28,7 @@ fun main() {
 
     println("Collections")
     // Immutable list
+    val listAny = listOf<Any>(1, 2, "3")
     val list = listOf(1, 2, 3)
 //    val list = listOf<Int>(1, 2, "3") // compilation error
 //    list.add(4) // compilation error
@@ -45,6 +46,7 @@ fun main() {
     for (item in list2) {
         println(item)
     }
+    // Kotlin way
     list2.forEach { println(it) }
 
     val pares = list2.filter { num ->
@@ -68,7 +70,7 @@ fun main() {
     println("Classes and Functions")
     val calculator = Calculator()
 
-    // Named params
-    println(calculator.sum(1, 2, c = 3))
+    // Named parameters, swapping
+    println(calculator.sum(c = 3, a = 1, b = 2))
     println(calculator.minus(1, 2))
 }
