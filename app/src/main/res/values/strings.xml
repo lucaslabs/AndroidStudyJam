@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Android Study Jam</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="email_error">Please enter an email</string>
+    <string name="email_format_error">Please enter a valid email</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="edit"><u>Edit</u></string>
+    <string name="name">Enter your name</string>
+    <string name="lastname">Enter your lastname</string>
+    <string name="btn_save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="my_items">My Items</string>
+    <string name="cart">Cart</string>
+    <string name="clothes">Clothes</string>
+    <string name="prize">Prize</string>
+    <string name="tracking">Tracking</string>
+    <string name="wallet">Wallet</string>
+
 </resources>
