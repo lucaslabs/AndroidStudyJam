@@ -3,9 +3,13 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="login">Login</string>
+    <string name="btn_login">Login</string>
     <string name="email_error">Please enter an email</string>
     <string name="email_format_error">Please enter a valid email</string>
     <string name="password_error">Please enter a password</string>
+    <string name="edit"><u>Edit</u></string>
+    <string name="name">Enter your name</string>
+    <string name="lastname">Enter your lastname</string>
+    <string name="btn_save">Save</string>
 
 </resources>

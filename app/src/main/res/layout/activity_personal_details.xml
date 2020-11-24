@@ -7,41 +7,41 @@
     tools:context=".login.LoginActivity">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_email_layout"
+        android:id="@+id/ti_name_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_email"
+            android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/email"
-            android:inputType="textEmailAddress" />
+            android:hint="@string/name"
+            android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_password_layout"
+        android:id="@+id/ti_lastname_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ti_email_layout">
+        app:layout_constraintTop_toBottomOf="@+id/ti_name_layout">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_password"
+            android:id="@+id/et_lastname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/password"
-            android:inputType="textPassword" />
+            android:hint="@string/lastname"
+            android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_login"
+        android:text="@string/btn_save"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ti_password_layout" />
+        app:layout_constraintTop_toBottomOf="@+id/ti_lastname_layout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,7 @@
 package com.dsc.androidstudyjam.login
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.dsc.androidstudyjam.R
 import com.dsc.androidstudyjam.databinding.ActivityLoginBinding
@@ -28,7 +28,9 @@ class LoginActivity : AppCompatActivity() {
         val loginStatus = loginManager.doLogin(email, password)
         when (loginStatus) {
             LoginManager.LoginStatus.LoginSuccess -> {
-                Toast.makeText(this, "Go to Home screen", Toast.LENGTH_LONG).show()
+                val intent = Intent(this, HomeActivity::class.java)
+                intent.putExtra(USER_KEY, loginManager.email)
+                startActivity(intent)
             }
             LoginManager.LoginStatus.EmailError -> binding.etEmail.error =
                 getString(R.string.email_error)
@@ -37,5 +39,9 @@ class LoginActivity : AppCompatActivity() {
             LoginManager.LoginStatus.EmailFormatNotValid -> binding.etEmail.error =
                 getString(R.string.email_format_error)
         }
+    }
+
+    companion object {
+        const val USER_KEY = "user"
     }
 }

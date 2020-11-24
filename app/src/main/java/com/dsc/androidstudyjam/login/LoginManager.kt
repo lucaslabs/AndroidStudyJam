@@ -1,14 +1,18 @@
 package com.dsc.androidstudyjam.login
 
 import android.util.Patterns
+import com.dsc.androidstudyjam.kotlin101.emptyString
 
 class LoginManager {
+
+    var email: String = emptyString()
 
     fun doLogin(email: String, password: String): LoginStatus {
         val loginStatus = LoginStatus.LoginSuccess
         if (email.isEmpty()) return LoginStatus.EmailError
         if (!isValidEmail(email)) return LoginStatus.EmailFormatNotValid
         if (password.isEmpty()) return LoginStatus.PasswordError
+        this.email = email
         return loginStatus
     }
 
