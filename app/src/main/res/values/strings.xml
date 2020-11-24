@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Android Study Jam</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="email_error">Please enter an email</string>
+    <string name="email_format_error">Please enter a valid email</string>
+    <string name="password_error">Please enter a password</string>
+
 </resources>
