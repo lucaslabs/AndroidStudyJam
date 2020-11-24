@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.dsc.androidstudyjam.R
 import com.dsc.androidstudyjam.databinding.ActivityLoginBinding
+import com.dsc.androidstudyjam.home.HomeActivity
 
 class LoginActivity : AppCompatActivity() {
 

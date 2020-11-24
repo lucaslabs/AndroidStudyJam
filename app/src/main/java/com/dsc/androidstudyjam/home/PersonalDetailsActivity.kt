@@ -1,4 +1,4 @@
-package com.dsc.androidstudyjam.login
+package com.dsc.androidstudyjam.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

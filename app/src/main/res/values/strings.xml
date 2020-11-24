@@ -11,5 +11,12 @@
     <string name="name">Enter your name</string>
     <string name="lastname">Enter your lastname</string>
     <string name="btn_save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="my_items">My Items</string>
+    <string name="cart">Cart</string>
+    <string name="clothes">Clothes</string>
+    <string name="prize">Prize</string>
+    <string name="tracking">Tracking</string>
+    <string name="wallet">Wallet</string>
 
 </resources>
